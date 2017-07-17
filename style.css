@@ -1,3 +1,104 @@
+ html { overflow:  hidden; }
+
+html{
+  background-color: black;
+  margin: 0px;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: light;
+}
+
+
 body{
-  background-color: grey;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: auto;
+  margin: 0px;
+  color:white;
+}
+
+#prog{
+  width: 650px;
+  height: 650px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+}
+
+#prog h1{
+  color:white;
+  text-align: center;
+  font-size: 30px;
+}
+
+#time{
+  border: solid;
+  border-color: white;
+  border-width: 1px;
+  text-align: center;
+  font-size: 15px;
+  padding: 20px;
+}
+
+#content{
+  margin-top: 2%;
+  border: solid;
+  border-color: white;
+  border-width: 1px;
+  text-align: center;
+  padding: 20px;
+}
+
+#down{
+  float:right;
+  margin-right:20px;
+  margin-top: 5px;
+}
+
+#up{
+  float: left;
+  margin-left: 20px;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+.timeToWork{
+  text-align: center;
+  font-size: 80px;
+}
+
+#menu{
+  margin-top: 2%;
+  border: solid;
+  border-color: white;
+  border-width: 1px;
+  text-align: center;
+  height: 35px;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.changeTime{
+  font-size:30px;
+}
+
+.upDown{
+  margin-top: 3%;
+}
+
+#pause{
+  float: right;
+  margin-right: 40px;
+}
+
+
+
+#stop{
+  float: left;
+  margin-left: 40px;
 }

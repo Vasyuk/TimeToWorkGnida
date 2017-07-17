@@ -1,11 +1,35 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Google</title>
+    <title>TimeToWorkTufiak</title>
     <link href="style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+
   </head>
   <body>
-    
+    <div id = "prog">
+      <h1>TIME TO WORK TUFIAK</h1>
+      <div id = "time">
+        <a>WHAT IS THE TIME YOU WANT TO WORK?</a>
+        <br>
+        <div class = "upDown" id = "upDown" >
+          <image  id = "down" src ="Images/down-arrow.png">
+          <image  id = "up" src ="Images/up-arrow.png">
+          <a class = "changeTime" >0:30</a>
+        </div>
+      </div>
+      <div id ="menu">
+          <image  id = "pause" src ="Images/pause.png">
+          <image  id = "play" src ="Images/play-button.png">
+          <image  id = "playFull" src ="Images/play-button-full.png">
+          <image  id = "stop" src ="Images/stop.png">
+      </div>
+      <div id ="content">
+        <a>HOW MUCH IS LEFT TO WORK</a>
+        <br>
+        <a  class ="timeToWork" >0:0</a>
+      </div>
+    </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="js.js"></script>
   </body>
